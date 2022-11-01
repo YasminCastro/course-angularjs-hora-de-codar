@@ -1,0 +1,11 @@
+<div class="class">
+  <div *ngIf="canShow1">Linha que não é pra mostrar</div>
+  <div *ngIf="canShow2">Linha que é pra mostrar</div>
+  <h2 *ngIf="name === 'Yasmin'; else nameNotFound">O Nome é Yasmin</h2>
+
+  <ng-template #nameNotFound>
+    <div>
+      <h2>Nome não encontrado!</h2>
+    </div>
+  </ng-template>
+</div>
