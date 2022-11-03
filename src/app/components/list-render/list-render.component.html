@@ -1,3 +1,12 @@
 <div class="class">
-  <p>Deu certo!</p>
+  <h2>Animals:</h2>
+  <ul>
+    <li *ngFor="let animal of animals">{{ animal }}</li>
+  </ul>
+  <h2>Animals names:</h2>
+  <ul>
+    <li *ngFor="let animal of animalsProperty">
+      {{ animal.name }} -> {{ animal.type }}
+    </li>
+  </ul>
 </div>
