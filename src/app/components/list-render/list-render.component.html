@@ -7,6 +7,8 @@
   <ul>
     <li *ngFor="let animal of animalsProperty">
       {{ animal.name }} -> {{ animal.type }}
+      <button (click)="showAge(animal)">Show age</button>
     </li>
   </ul>
+  <h3>{{ animalDetails }}</h3>
 </div>
