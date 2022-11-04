@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Animal } from 'src/app/Animal';
 
+import { ListService } from 'src/app/services/list.service';
+
 @Component({
   selector: 'app-list-render',
   templateUrl: './list-render.component.html',
@@ -14,7 +16,7 @@ export class ListRenderComponent implements OnInit {
     { name: 'mimosa', type: 'cow', age: 4 },
   ];
 
-  constructor() {}
+  constructor(private listService: ListService) {}
 
   ngOnInit(): void {}
 
@@ -22,5 +24,12 @@ export class ListRenderComponent implements OnInit {
 
   showAge(animal: Animal) {
     this.animalDetails = `O pet tem ${animal.age} anos de idade`;
+  }
+
+  removeAnimal(animal: Animal) {
+    this.animalsProperty = this.listService.remove(
+      this.animalsProperty,
+      animal
+    );
   }
 }
