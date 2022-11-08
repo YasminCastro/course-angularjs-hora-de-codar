@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { Animal } from '../Animal';
 
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -13,9 +12,8 @@ export class ListService {
 
   constructor(private http: HttpClient) {}
 
-  //requisições do banco ficam aqui
-  remove(animals: Animal[], animal: Animal) {
-    return animals.filter((a) => animal.name !== a.name);
+  remove(id: number) {
+    return this.http.delete<Animal>(`${this.apiUrl}/${id}`);
   }
 
   getAll(): Observable<Animal[]> {
