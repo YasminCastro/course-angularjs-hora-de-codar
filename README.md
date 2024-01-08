@@ -1,27 +1,20 @@
-# CursoAngular
+# Curso de AngularJS pelo canal Hora de Codar
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+## Visão Geral
 
-## Development server
+[ATER](https://software-ater.com.br) é um projeto que aborda uma crítica social e institucional, focando na influência da inteligência artificial no mapeamento e na promoção de artistas racializados (negros e indígenas) brasileiros nas redes sociais e em instituições de arte. O projeto investiga e discute os impactos teóricos e práticos dessas tecnologias na disseminação da produção artística desses grupos.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Em 2023, tive a oportunidade de contribuir para este projeto significativo desenvolvendo uma página web dinâmica. Esta página está integrada ao software de pesquisa do projeto e serve como um portal interativo para explorar suas ideias e descobertas.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Este repositório contém o projeto desenvolvido durante um curso do canal [Hora de Codar](https://www.youtube.com/@MatheusBattisti) no YouTube, onde aprendi os fundamentos do AngularJS em 2022. O curso foi focado em explorar as funcionalidades e o poder do AngularJS, uma das principais frameworks para desenvolvimento web.
 
-## Build
+## Características
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Fundamentos do AngularJS
+  
+## Tecnologias Utilizadas
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- TypeScript
+- AngularJS
+- CSS
